@@ -1,0 +1,350 @@
+﻿<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Inicio</title>
+  <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="fonts/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  <script src="main.js"></script>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/estilos.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- Add your site or application content here -->
+  <script src="js/vendor/modernizr-3.8.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/slide.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+
+  <!--------------------------------------------------------------------------HEADER-------------------------------------------------------------------------->
+
+  <header>
+    <div class="menu-bar">
+      <a href="#" class="bt-menu"><span class="icon-menu"></span><img src="img/logo.png" alt=""></a>
+    </div>
+
+    <nav>
+
+      <div><img id=logo src="img/logo.png" alt=""></div>
+
+      <ul class="menu">
+        <li><a class="pag-actual" href="#">INICIO</a></li>
+        <li class="submenu">
+          <a href="#">INSTITUCION<span class="caret icon-chevron-down"></span></a>
+          <ul class="children">
+            <li><a href="index-hist.html">Historia</a></li>
+            <li><a href="index-esp.html">Especialistas</a></li>
+            <li><a href="index-not1.html">Noticias</a></li>
+          </ul>
+        </li>
+        <li class="submenu">
+          <a href="#">SERVICIOS<span class="caret icon-chevron-down"></span></a>
+          <ul class="children">
+            <li><a href="#">Internacion</a></li>
+            <li><a href="#">Especialidades</a></li>
+            <li><a href="#">Traslados</a></li>
+            <li><a href="#">Eventos</a></li>
+            <li><a href="#">Convenios</a></li>
+          </ul>
+        </li>
+        <li class="submenu">
+          <a href="#">EMPRESAS<span class="caret icon-chevron-down"></span></a>
+          <ul class="children">
+            <li><a href="#">Areas Protegidas</a></li>
+            <li><a href="#">Medicina Laboral</a></li>
+            <li><a href="#">Capacitaciones</a></li>
+          </ul>
+        </li>
+        <li><a href="index-plan.html">PLANES</a></li>
+        <li><a href="index-cont.html">CONTACTO</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <div class="galleryContainer">
+    <div class="slideShowContainer">
+      <div id="playPause" onclick="playPauseSlides()"></div>
+      <div onclick="plusSlides(-1)" class="nextPrevBtn leftArrow"><span class="arrow arrowLeft"></span></div>
+      <div onclick="plusSlides(1)" class="nextPrevBtn rightArrow"><span class="arrow arrowRight"></span></div>
+      <div class="captionTextHolder">
+        <p class="captionText slideTextFromTop"></p>
+      </div>
+      <div class="imageHolder">
+        <img src="img/portada.jpg">
+        <p class="captionText"></p>
+      </div>
+      <div class="imageHolder">
+        <img src="img/portada2.jpg">
+        <p class="captionText"></p>
+      </div>
+      <div class="imageHolder">
+        <img src="img/portada3.jpg">
+        <p class="captionText"></p>
+      </div>
+      <div class="imageHolder">
+        <img src="img/portada4.jpg">
+        <p class="captionText"></p>
+      </div>
+    </div>
+    <div id="dotsContainer"></div>
+  </div>
+
+  <!--------------------------------------------------------------------------MAIN-------------------------------------------------------------------------->
+
+  <main>
+    <section class="contenedor-main">
+
+      <section class="titulo-seccion1">
+        <article>
+          <h3>COMPROMETIDOS LAS 24 HS. CON LA SALUD</h3>
+          <h2>ESTAMOS PARA <b>CUIDARLO</b></h2>
+        </article>
+      </section>
+
+      <section class="seccion-1">
+        <div class="contenido">
+          <div id="elemento1">
+            <h3><span>01</span> Traslados</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, id?</p>
+          </div>
+
+          <div id="elemento2">
+            <h3><span>02</span> Internacion</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, id?</p>
+          </div>
+
+          <div id="elemento3">
+            <h3><span>03</span> Quirofano</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, id?</p>
+          </div>
+
+          <div id="elemento4">
+            <h3><span>04</span> Planes de salud</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, id?</p>
+          </div>
+
+          <div id="elemento5">
+            <h3><span>05</span> Especialidades</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, id?</p>
+          </div>
+
+          <div id="elemento6">
+            <h3><span>06</span> Convenios</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, id?</p>
+          </div>
+        </div>
+      </section>
+
+      <!--------------------------------------------------------------------------------------------->
+
+      <section class="seccion-2">
+
+        <div class="fondo">
+          <section class="textos">
+            <article class="titulo">
+              <h3>HOLA, BIENVENIDOS A</h3>
+              <h2>SAM MEDICINA PRIVADA</h2>
+            </article>
+
+            <article class="contenido">
+              <p>Somos una empresa de Medicina Privada de la ciudad de Puerto Iguazú, que busca la excelencia de forma
+                permanentemente. Contamos con numerosos especialistas altamente capacitados y equipo de útlima
+                generación para cubrir todas sus necesidades, la de su familia o empresa.</p>
+              <p>Ofrecemos diversos Planes de Salud con coberturas domiciliarias y ambulatorias, servicios de coberturas
+                de Áreas Protegidas, y nos caracterizamos en toda la zona Norte del País por la excelencia en Servicios
+                de Urgencias Médicas y Traslados Nacionales e Internacionales con una flota de Ambulancias U.T.I.M. con
+                equipamientos de última generación.</p>
+            </article>
+
+            <article class=contenido2-titulos>
+              <p>Especialidades</p>
+              <p>Unidades</p>
+              <p>Profesionales</p>
+            </article>
+
+            <article class="contenido2">
+
+              <ul class="esp">
+                <li><span>0</span></li>
+                <li><span>1</span></li>
+                <li><span>2</span></li>
+                <li><span>3</span></li>
+                <li><span>4</span></li>
+              </ul>
+
+              <ul class="uni">
+                <li><span>0</span></li>
+                <li><span>1</span></li>
+                <li><span>2</span></li>
+                <li><span>3</span></li>
+                <li><span>4</span></li>
+                <li><span>5</span></li>
+              </ul>
+
+              <ul class="pro">
+                <li><span>0</span></li>
+                <li><span>1</span></li>
+                <li><span>2</span></li>
+                <li><span>3</span></li>
+                <li><span>4</span></li>
+                <li><span>5</span></li>
+                <li><span>6</span></li>
+                <li><span>7</span></li>
+              </ul>
+            </article>
+          </section>
+        </div>
+      </section>
+
+      <!--------------------------------------------------------------------------------------------->
+
+      <section class="seccion-3">
+        <article class="contenido-bloque1">
+          <div><img src="img/doctor.png" alt="" width="50px" height="auto"></div>
+          <h3><br />RESERVAR UN <b>TURNO</b></h3>
+          <p><br />Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, dolorem?</p>
+        </article>
+
+        <article class="contenido-bloque2">
+          <div><img src="img/ambulancia.png" alt="" width="50px" height="auto"></div>
+          <h3><br />URGENCIAS | <b>24 HORAS</b></h3>
+          <p><br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, minus.</p>
+        </article>
+
+        <article class="contenido-bloque3">
+          <div><img src="img/reloj.png" alt="" width="50px" height="auto"></div>
+          <h3><br />HORARIOS DE <b>ATENCION</b></h3>
+          <p><br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, ut?</p>
+        </article>
+      </section>
+
+      <!--------------------------------------------------------------------------------------------->
+
+      <section class="container-cards">
+        <section class="cards">
+          <div class="card1">
+            <span class="icon-location"></span>
+            <h3><br><b>DIRECCION</b></h3>
+            <p><br>Lorem ipsum dolor sit amet.</p>
+          </div>
+
+          <article class="card2">
+            <span class="icon-phone"></span>
+            <h3><br><b>URGENCIAS</b></h3>
+            <p><br>Lorem ipsum dolor sit amet.</p>
+          </article>
+
+          <article class="card3">
+            <span class="icon-mail"></span>
+            <h3><br><b>E-MAIL</b></h3>
+            <p><br>Lorem ipsum dolor sit amet.</p>
+          </article>
+
+          <article class="card4">
+            <span class="icon-clock"></span>
+            <h3><br><b>ATENCION</b></h3>
+            <p><br>Lorem ipsum dolor sit amet.</p>
+          </article>
+        </section>
+      </section>
+
+    </section>
+  </main>
+
+  <!--------------------------------------------------------------------------FOOTER-------------------------------------------------------------------------->
+
+
+  <footer>
+    <div class="container-footer1">
+      <div class="container">
+        <div class="column1">
+          <h1>SAM MEDICINA PRIVADA</h1>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore assumenda perferendis sit illum, totam
+            quo
+            voluptatibus optio alias nostrum architecto!</p>
+        </div>
+
+        <div class="column2">
+          <h2>Redes sociales</h2>
+
+          <div class="row">
+            <label><span class="icon-facebook-with-circle"></span>Siguenos en Facebook</label>
+          </div>
+
+          <div class="row">
+            <label><span class="icon-twitter-with-circle"></span>Siguenos en Twitter</label>
+          </div>
+
+          <div class="row">
+            <label><span class="icon-instagram-with-circle"></span>Siguenos en Instagram</label>
+          </div>
+
+          <div class="row">
+            <label><span class="icon-google-with-circle"></span>Siguenos en Google Plus</label>
+          </div>
+
+          <div class="row">
+            <label><span class="icon-pinterest-with-circle"></span>Siguenos en Pinterest</label>
+          </div>
+        </div>
+
+        <div class="column3">
+          <h1>Informacion Contactos</h1>
+
+          <div class="row">
+            <label><span class="icon-home"></span>Hospital SAM,
+              Avenida Republica
+              Argentina, 275
+              Puerto Iguazu, Misiones</label>
+          </div>
+          <div class="row">
+            <label><span class="icon-mobile"></span>(03757) 420030</label>
+          </div>
+
+          <div class="row">
+            <label><span class="icon-mail"></span>info@clinicasam.com.ar</label>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container-footer2">
+      <div class="copyright">2020 - SAM Medicina Privada |
+        Diseño por <b>Joa y Maxi</b></div>
+    </div>
+
+  </footer>
+  <script src="js/slide.js"></script>
+</body>
+
+</html>
